@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+}
+
+/* body::after {
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat-x;
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  min-height: 100vh;
+} */
+
 /* Class Selectors */
 .search {
   display: flex;
