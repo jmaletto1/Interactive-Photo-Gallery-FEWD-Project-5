@@ -3,10 +3,7 @@ const searchBar = document.getElementById("search");
 const searchValue = searchBar.value;
 const data = document.getElementsByClassName("photo");
 
-function photoSearch() {
-  console.log(searchValue);
-}
-
+// Event Listener and Search Function
 searchBar.addEventListener("keyup", () => {
   let input = searchBar.value.toLowerCase();
   console.log(input);
